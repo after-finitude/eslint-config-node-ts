@@ -12,7 +12,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
-    project: ["./tsconfig.json", "./babel.config.js"]
+    project: ["./tsconfig.json"]
   },
   rules: {
     "@typescript-eslint/ban-ts-ignore": 1,
